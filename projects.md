@@ -4,7 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-## [Save](https://github.com/to-ny/save) (WIP)
+# Current Projects
+
+## [Save](https://github.com/to-ny/save)
 
 **Kubernetes-native S3-compatible object storage written in Rust.**
 
@@ -38,6 +40,6 @@ A Tauri-based app that integrates AI agents with a diff review workflow. Send pr
 
 ---
 
-## Other Projects
+# Past Projects
 
 - [crypto-trackers](https://github.com/to-ny/crypto-trackers) — Playground project for testing AI agent capabilities on a green-field codebase
