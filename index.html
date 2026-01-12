@@ -13,37 +13,43 @@
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      zoom: 1.1;
       line-height: 1.6;
       color: #333;
+      background-color: #FAF8F5;
       max-width: 640px;
       margin: 0 auto;
-      padding: 4rem 1.5rem;
+      padding: 3rem 1.5rem;
     }
 
     h1 {
       font-size: 1.75rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       font-weight: 600;
+      color: #722F37;
     }
 
     .projects {
-      margin-bottom: 3rem;
+      margin-bottom: 1.5rem;
     }
 
     .project {
-      margin-bottom: 2rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid #eee;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid #EBE8E4;
     }
 
     .project:last-child {
       border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
 
     .project h2 {
       font-size: 1.1rem;
       font-weight: 600;
       margin-bottom: 0.5rem;
+      color: #722F37;
     }
 
     .project h2 a {
@@ -71,16 +77,13 @@
       color: #999;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      margin-bottom: 1.5rem;
-    }
-
-    .projects + .section-title {
-      margin-top: 1rem;
+      margin-bottom: 0.75rem;
     }
 
     .links {
       display: flex;
       gap: 1.5rem;
+      margin-bottom: 1.5rem;
     }
 
     .links a {
@@ -92,40 +95,68 @@
     .links a:hover {
       color: #0066cc;
     }
+
+    .project-link {
+      color: #666;
+      font-size: 0.85rem;
+      text-decoration: none;
+    }
+
+    .project-link:hover {
+      color: #722F37;
+    }
+
+    .project-link.website {
+      color: #722F37;
+    }
+
+    .project-link.website:hover {
+      color: #5A252C;
+    }
   </style>
 </head>
 <body>
   <h1>github.com/to-ny</h1>
 
+  <nav class="links">
+    <a href="https://github.com/to-ny">GitHub</a>
+    <a href="https://linkedin.com/in/adebounam">LinkedIn</a>
+  </nav>
+
   <h2 class="section-title">Active</h2>
   <section class="projects">
     <article class="project">
-      <h2><a href="https://github.com/to-ny/save">save</a> <span class="year">2025—</span></h2>
+      <h2>medsearch <span class="year">2026</span></h2>
+      <p>Public frontend for Belgium's official medication data.</p>
+      <a href="https://medsearch.be" class="project-link website">website</a> · <a href="https://github.com/to-ny/medsearch" class="project-link">source</a>
+    </article>
+
+    <article class="project">
+      <h2>save <span class="year">2025</span></h2>
       <p>Distributed object storage written in Rust.</p>
+      <a href="https://github.com/to-ny/save" class="project-link">source</a>
     </article>
   </section>
 
   <h2 class="section-title">Past</h2>
   <section class="projects">
     <article class="project">
-      <h2><a href="https://github.com/to-ny/devflow">devflow</a> <span class="year">2025</span></h2>
+      <h2>devflow <span class="year">2025</span></h2>
       <p>Desktop app integrating an AI agent with Git diff review.</p>
+      <a href="https://github.com/to-ny/devflow" class="project-link">source</a>
     </article>
 
     <article class="project">
-      <h2><a href="https://github.com/to-ny/friends-log">friends-log</a> <span class="year">2025</span></h2>
+      <h2>friends-log <span class="year">2025</span></h2>
       <p>A geeky way to make sure I don't go too long without seeing my friends.</p>
+      <a href="https://github.com/to-ny/friends-log" class="project-link">source</a>
     </article>
 
     <article class="project">
-      <h2><a href="https://github.com/to-ny/crypto-trackers">crypto-trackers</a> <span class="year">2025</span></h2>
+      <h2>crypto-trackers <span class="year">2025</span></h2>
       <p>A quick experiment with LLM capabilities on a greenfield project.</p>
+      <a href="https://github.com/to-ny/crypto-trackers" class="project-link">source</a>
     </article>
   </section>
-
-  <nav class="links">
-    <a href="https://github.com/to-ny">GitHub</a>
-    <a href="https://linkedin.com/in/adebounam">LinkedIn</a>
-  </nav>
 </body>
 </html>
